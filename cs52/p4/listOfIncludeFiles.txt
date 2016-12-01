@@ -1,0 +1,33 @@
+Listed below are the include files (except for system libraries) that I have in
+my project files.  If you are getting strange linker errors, change your 
+includes to match these.
+
+
+DateTime.h
+   //should require no include files
+   
+DateTime.cpp
+#include "DateTime.h"
+
+
+PHMSA7000.h
+#include "DateTime.h"
+
+
+PHMSA7000.cpp
+#include "PHMSA7000.h"
+
+
+
+IncidentLog.h
+#include "PHMSA7000.h"
+#include "LL.h"
+
+
+LL.h
+#include "DateTime.h"
+
+
+driver program
+#include "DateTime.h"
+#include "IncidentLog.h"
