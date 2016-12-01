@@ -19,7 +19,7 @@
 
 const int LIST_SIZE_MIN = 126;  //new for P5 (mandatory) (please do not change this)
 
-const int LIST_SIZE = 3000;     //new for P5 (mandatory) (change this as necessary)
+const int LIST_SIZE = 1000;     //new for P5 (mandatory) (change this as necessary)
 
 const int MAX_NUMBER = 126000;  //new for P5 (mandatory) (please do not change this)
 
